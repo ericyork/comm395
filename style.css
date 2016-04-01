@@ -1,3 +1,6 @@
+/*-- Layout styles
+--*/
+
 .container {
 	margin: 0;
 	padding: 0;
@@ -20,6 +23,20 @@
 .cr, .c1, .c2, .c3, .c4, .c5, .c6, .c7, .c8, .c9, .c10, .c11, .c12, .c13, .c14 {
 	width: 100%;
 }
+
+/*-- Utility Classes
+--*/
+.shadow-2 {
+	box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12); }
+}
+
+.block-ctr {
+	display: block;
+	margin: 0 auto;
+}
+
+/*-- Media Queries
+--*/
 
 @media (min-width: 600px) {
 	.c1 {
@@ -54,6 +71,9 @@
 	  margin-right: auto;
 	}
 }
+
+/*-- Demo divs
+--*/
 
 .cr {
   color: #ddd;
