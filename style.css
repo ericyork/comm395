@@ -72,11 +72,11 @@
 
 @media (min-width: 600px) {
 	.c1 {
-		width: 66.66%
+		width: 66.66%;
 	}
 	
 	.c2 {
-		width: 33.33%
+		width: 33.33%;
 	}
 	
 	.c3, .c4, .c5, .c6, .c7, .c8, .c9, .c10, .c11, .c12, .c13, .c14 {
