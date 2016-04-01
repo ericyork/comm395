@@ -1,6 +1,5 @@
-/*-- Layout styles
+/*-- Layout Styles
 --*/
-
 .container {
 	margin: 0;
 	padding: 0;
@@ -24,6 +23,12 @@
 	width: 100%;
 }
 
+/*-- Card Styles
+--*/
+.card {
+	
+}
+
 /*-- Utility Classes
 --*/
 .shadow-2 {
@@ -33,6 +38,11 @@
 .block-ctr {
 	display: block;
 	margin: 0 auto;
+}
+
+.resp-img {
+	width: 100%;
+	height: auto;
 }
 
 /*-- Media Queries
