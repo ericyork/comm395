@@ -1,0 +1,131 @@
+.container {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+
+.container div {
+	box-sizing: border-box;
+	min-height: 150px;
+	min-width: 150px;
+}
+      
+.container {
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-flow: row wrap;
+	flex-flow: row wrap;
+}
+
+.cr, .c1, .c2, .c3, .c4, .c5, .c6, .c7, .c8, .c9, .c10, .c11, .c12, .c13, .c14 {
+	width: 100%;
+}
+
+@media (min-width: 600px) {
+	.c1 {
+		width: 66.66%
+	}
+	
+	.c2 {
+		width: 33.33%
+	}
+	
+	.c3, .c4, .c5, .c6, .c7, .c8, .c9, .c10, .c11, .c12, .c13, .c14 {
+	  width: 50%;
+	}
+}
+
+@media (min-width: 800px) {
+	.c1 {
+	  width: 60%;
+	}
+	.c2 {
+	  width: 40%;
+	}
+	.c3, .c4, .c5, .c6, .c7, .c8, .c9, .c10, .c11, .c12, .c13, .c14  {
+	  width: 25%;
+	}
+}
+
+@media (min-width: 800px) {
+	.container {
+	  width: 100%;
+	  margin-left: auto;
+	  margin-right: auto;
+	}
+}
+
+.cr {
+  color: #ddd;
+  background-color: darkgreen;
+}
+
+.c1 {
+  color: #ddd;
+  background-color: #003476;
+}
+
+.c2 {
+  color: #ddd;
+  background-color: #0062d2;
+}
+
+.c3 {
+  color: #333;
+  background-color: #b4d2f7;
+}
+
+.c4 {
+  color: #333;
+  background-color: #d5dfef;
+}
+
+.c5 {
+  color: #333;
+  background-color: #dfe1e5;
+}
+
+.c6 {
+  color: #333;
+  background-color: #ccc;
+}
+
+.c7 {
+  color: #ddd;
+  background-color: #003476;
+}
+
+.c8 {
+  color: #ddd;
+  background-color: #0062d2;
+}
+
+.c9 {
+  color: #333;
+  background-color: #b4d2f7;
+}
+
+.c10 {
+  color: #333;
+  background-color: #d5dfef;
+}
+
+.c11 {
+  color: #333;
+  background-color: #dfe1e5;
+}
+
+.c12 {
+  color: #333;
+  background-color: #ccc;
+}
+
+.c13 {
+  color: #333;
+  background-color: #dfe1e5;
+}
+
+.c14 {
+  color: #333;
+  background-color: #ccc;
+}
