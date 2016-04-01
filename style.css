@@ -9,8 +9,6 @@
 .container div {
 	min-height: 150px;
 	min-width: 150px;
-	margin: 0;
-	padding: 0;
 }
       
 .container {
@@ -31,6 +29,8 @@
 .card {
   display: inline-flex;
   align-items: flex-start;
+  flex-flow: column;
+  position: relative;
 }
 
 .card-img img {
@@ -42,8 +42,14 @@
 }
 
 .card-title {
+	position: absolute;
+	top: 0px;
 }
 
+.card-subtitle {
+	position: absolute;
+	bottom: 0px;
+}
 
 /*--.card {
 	display: -webkit-inline-flex;
