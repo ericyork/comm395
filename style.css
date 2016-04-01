@@ -7,9 +7,10 @@
 }
 
 .container div {
-	box-sizing: border-box;
 	min-height: 150px;
 	min-width: 150px;
+	margin: 0;
+	padding: 0;
 }
       
 .container {
@@ -25,34 +26,47 @@
 
 /*-- Card Styles
 --*/
+
+
 .card {
-	display: -webkit-flex;
-	display: flex;
-	-webkit-flex-flow: row wrap;
-	flex-flow: row wrap;
-	overflow: hidden;
-	z-index: 1;
-	border-radius: 2px;
-	box-sizing: border-box;
+  display: inline-flex;
+  align-items: flex-start;
+}
+
+.card-img img {
+	width: 100%;
+	height: auto;
 }
 
 .card-img {
-	display: none;
 }
 
 .card-title {
-	padding: 16px 16px;
-	overflow: hidden;
+}
+
+
+/*--.card {
+	display: -webkit-inline-flex;
+	display: inline-flex;
+	-webkit-flex-direction: column;
+	flex-direction: column;
+	align-items: flex-start;
+}
+.card-img img {
+	width: 100%;
+	height: auto;
+}
+
+.card-title {
 }
 
 .card-subtitle {
-	padding: 16px 16px;
-	overflow: hidden;
 }
 
 .card-action {
-	z-index: 2;
 }
+--*/
+
 
 /*-- Utility Classes
 --*/
