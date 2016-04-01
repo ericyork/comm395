@@ -26,7 +26,32 @@
 /*-- Card Styles
 --*/
 .card {
-	
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-flow: row wrap;
+	flex-flow: row wrap;
+	overflow: hidden;
+	z-index: 1;
+	border-radius: 2px;
+	box-sizing: border-box;
+}
+
+.card-img {
+	display: none;
+}
+
+.card-title {
+	padding: 16px 16px;
+	overflow: hidden;
+}
+
+.card-subtitle {
+	padding: 16px 16px;
+	overflow: hidden;
+}
+
+.card-action {
+	z-index: 2;
 }
 
 /*-- Utility Classes
