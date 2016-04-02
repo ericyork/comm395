@@ -4,6 +4,7 @@ body {
 	font-family: Roboto;
 	font-size: 16px;
 	font-weight: 300;	
+	overflow-x: hidden;
 }
 
 a {
@@ -12,7 +13,7 @@ a {
 	text-decoration: none;
 }
 a:visited {
-	color: green;
+	color: darkgreen;
 }
 a:hover {
 	color: green;
@@ -35,7 +36,6 @@ h1, h2 {
 .container > div {
 	min-height: 150px;
 	min-width: 150px;
-	padding: 1em;
 	box-sizing: border-box;
 }
       
@@ -102,13 +102,35 @@ span.tagline {
 }
 
 .card-title {
+	box-sizing: border-box;
 	position: absolute;
 	top: 0px;
+	width: 100%;
+	background-color: rgba(0,0,0,0.4);
+	color: #FFF;
+	padding-left: 10px;
+}
+
+.card-title h3 {
+	font-family: 'Roboto Slab';
+	font-weight: 400;
+	margin: 0;
+	padding: 5px;
 }
 
 .card-subtitle {
+	box-sizing: border-box;
 	position: absolute;
 	bottom: 0px;
+	width: 100%;
+	background-color: rgba(0,0,0,0.4);
+	color: #FFF;
+	padding: 6px 10px 6px 10px;
+}
+
+.card-subtitle span {
+	font-family: 'Roboto Slab';
+	font-weight: 100;
 }
 
 /*-- Utility Classes
