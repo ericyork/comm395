@@ -1,5 +1,31 @@
 /*-- Layout Styles
 --*/
+body {
+	font-family: Roboto;
+	font-size: 16px;
+	font-weight: 300;	
+}
+
+a {
+	font-weight: 700;
+	color: darkgreen;
+	text-decoration: none;
+}
+a:visited {
+	color: green;
+}
+a:hover {
+	color: green;
+}
+a:active {
+
+}
+
+h1, h2 {
+	font-family: 'Roboto Slab';
+	font-weight: 300;
+}
+
 .container {
 	margin: 0;
 	padding: 0;
@@ -54,12 +80,6 @@ span.tagline {
 	margin-bottom: 10px;
 	line-height: 1.1;
 	font-size: 16px;
-}
-.feeds a {
-	color: #597736;
-}
-.feeds a:hover {
-	color: #2F5504;
 }
 
 /*-- Card Styles
