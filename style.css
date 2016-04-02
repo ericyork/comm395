@@ -31,10 +31,19 @@ div.cr {
 
 .cr > h1 {
 	font-family: 'Roboto Slab';
-	font-size: 10em;
+	font-size: 3rem;
 	font-weight: 100;
 	margin: 0;
 	padding: 0;
+	transition: 0.5s;
+	line-height: 1;
+}
+
+span.tagline {
+	font-size: 1rem;
+	color: gold;
+	font-weight: 700;
+	transition: 0.5s;
 }
 
 /*-- Card Styles
@@ -95,19 +104,38 @@ div.cr {
 	}
 	
 	.c3, .c4, .c5, .c6, .c7, .c8, .c9, .c10, .c11, .c12, .c13, .c14 {
-	  width: 50%;
+		width: 50%;
+	}
+	.cr > h1 {
+		font-size: 6rem;
+		line-height: 1.1;
+		margin: 0;
+		padding: 0;
+	}
+	span.tagline {
+		font-size: 1rem;
 	}
 }
 
 @media (min-width: 800px) {
 	.c1 {
-	  width: 60%;
+		width: 60%;
 	}
 	.c2 {
-	  width: 40%;
+		width: 40%;
 	}
 	.c3, .c4, .c5, .c6, .c7, .c8, .c9, .c10, .c11, .c12, .c13, .c14  {
-	  width: 25%;
+		width: 25%;
+	}
+	
+	.cr > h1 {
+		font-size: 10rem;
+		line-height: 1.2;
+		margin: 0;
+		padding: 0;
+	}
+	span.tagline {
+		font-size: 2rem;
 	}
 }
 

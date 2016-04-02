@@ -9,11 +9,18 @@
 		<meta name="author" content="Eric J. York">
 		<link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
 		<link href="style.css" rel="stylesheet" media="screen">
+		<script src='js/moment.js'></script>
+		<script src='js/jquery.rss.js'></script>
+		<script>
+		  jQuery(function($) {
+			$("#rss-feeds").rss("http://reddit.com/r/fantasywriters/.rss")
+		  })
+		</script>
 	</head>
 <body>
 <div class="container" role="main">
   <div class="cr">
-  	<h1>Gallery</h1>
+  	<h1>Gallery<span class="tagline">Comm 395</span></h1>
   </div>
   <div class="c1">
   </div>
