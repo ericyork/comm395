@@ -10,6 +10,9 @@
 		<link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
 		<link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
 		<link href="style.css" rel="stylesheet" media="screen">
+		<link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+		// Add the new slick-theme.css if you want the default styling
+		<link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
 	</head>
 	</head>
 <body>
@@ -18,8 +21,15 @@
 			<h1>Gallery<span class="tagline">Comm 395</span></h1>
 		</div>
 		<div class="c1">
+			<div class="feat-img card card-img">
+				<div><img src="pix/display.png" /></div>
+				<div><img src="pix/highlight.png" /></div>
+				<div><img src="pix/connect.png" /></div>
+			</div>
 		</div>
 		<div class="c2 card">
+			<!--temporarily disables rss feeds for development
+			<div id="rss-feeds" class="feeds"></div>-->
 			<div><!--temporary rss feed mockup to reduce queries during development-->
 				<ul>
 					<li><a href="#"><i class="fa fa-reddit fa-lg"></i> April Fools! Congrats to Our REAL March 2016 Challenge Winner, Lost_Pathfinder! :P</a><br> by /u/clockworklycanthrope <small>(on Friday Apr 1st)</small></li>
@@ -29,9 +39,6 @@
 					<li><a href="#"><i class="fa fa-reddit fa-lg"></i> Drug use in Fantasy</a><br> by /u/HoneycombPerc <small>(on Friday Apr 1st)</small></li>
 				</ul>
 			</div>
-			<!--temporarily disables rss feeds for development
-			<div id="rss-feeds" class="feeds"></div>
-			-->
 		</div>
 		<div class="c3">
 			<div class="card">
@@ -66,7 +73,16 @@
 	<script
 		  src="https://code.jquery.com/jquery-2.2.2.min.js"
 		  integrity="sha256-36cp2Co+/62rEAAYHLmRCPIych47CvdM+uTBJwSzWjI="
-		  crossorigin="anonymous"></script>
+		  crossorigin="anonymous">
+	</script>
+	<script type="text/javascript" src="slick/slick.min.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+		  $('.feat-img').slick({
+			autoplay: true
+		  });
+		});
+	</script>
 	<!--temporarily disables rss scripts
 	<script src='moment.js'></script>
 	<script src='jquery.rss.js'></script>
