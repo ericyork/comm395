@@ -8,14 +8,20 @@
 		<meta name="description" content="gallery">
 		<meta name="author" content="Eric J. York">
 		<link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+		<link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
 		<link href="style.css" rel="stylesheet" media="screen">
-		<script src='js/moment.js'></script>
-		<script src='js/jquery.rss.js'></script>
+		<script
+			  src="https://code.jquery.com/jquery-2.2.2.min.js"
+			  integrity="sha256-36cp2Co+/62rEAAYHLmRCPIych47CvdM+uTBJwSzWjI="
+			  crossorigin="anonymous"></script>
+		<script src='moment.js'></script>
+		<script src='jquery.rss.js'></script>
 		<script>
 		  jQuery(function($) {
 			$("#rss-feeds").rss("http://reddit.com/r/fantasywriters/.rss")
 		  })
 		</script>
+	</head>
 	</head>
 <body>
 <div class="container" role="main">
@@ -24,7 +30,8 @@
   </div>
   <div class="c1">
   </div>
-  <div class="c2">
+  <div class="c2 card">
+  	<div id="rss-feeds" class="feeds"></div>
   </div>
   <div class="c3">
   	<div class="card">

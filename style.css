@@ -46,6 +46,22 @@ span.tagline {
 	transition: 0.5s;
 }
 
+.feeds ul {
+	list-style: none;
+	padding-left: 0px;
+}
+.feeds li {
+	margin-bottom: 10px;
+	line-height: 1.1;
+	font-size: 16px;
+}
+.feeds a {
+	color: #597736;
+}
+.feeds a:hover {
+	color: #2F5504;
+}
+
 /*-- Card Styles
 --*/
 
