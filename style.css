@@ -2,7 +2,6 @@ h1, h2, h3, h4, h5, h6, p, ul, ol, li {
 	padding: 0;
 	margin: 0;
 }
-
 /*-- Layout Styles
 --*/
 body {
@@ -56,6 +55,7 @@ div.cr {
 	font-size: 3rem;
 	font-weight: 100;
 	transition: 0.5s;
+	color: #FFF;
 }
 span.tagline {
 	font-size: 1rem;
@@ -63,12 +63,10 @@ span.tagline {
 	font-weight: 700;
 	transition: 0.5s;
 }
-
 .feeds h1 {
 	margin-bottom: 0;
 	padding: 28px 16px 16px 32px;
 }
-
 .feeds ul {
 	list-style: none;
 	padding-right: 16px;
@@ -81,86 +79,66 @@ span.tagline {
 	font-size: 16px;
 }
 
+.feeds li:hover {
+	background-color: #F9F9F9;
+}
 /*-- Card Styles
 --*/
-
-
 .card {
 	display: flex;
 	flex-direction: column;
 	position: relative;
 }
-
-.card-img {
-	display: flex;
-}
-
 .card-img img {
 	width: 100%;
 	height: auto;
 }
-
-.card-title {
-	box-sizing: border-box;
-	position: absolute;
-	top: 0px;
-	width: 100%;
-	background-color: rgba(0,0,0,0.4);
-	color: #FFF;
-	padding-left: 10px;
-}
-
-.card-title h3 {
-	font-family: 'Roboto Slab';
-	font-weight: 400;
-	margin: 0;
-	padding: 5px;
-}
-
-.card-subtitle {
-	box-sizing: border-box;
-	position: absolute;
-	bottom: 0px;
-	width: 100%;
-	background-color: rgba(0,0,0,0.4);
-	color: #FFF;
-	padding: 6px 10px 6px 10px;
-}
-
-.card-subtitle span {
-	font-family: 'Roboto Slab';
-	font-weight: 100;
-}
-
-.card > a {
+.card-img {
 	display: flex;
-	flex-direction: column;
-	opacity: 0;
 }
-
-.card > a:hover {
+.caption {
+	display: flex;
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background-color: transparent;
+	opacity: 0;
+	transition: 0.5s;
+	padding: 12px 12px;
+}
+.caption:hover {
+	background-color: rgba(0,0,0,0.3);
 	opacity: 1;
 }
-
+.card-title {
+}
+.card-subtitle {
+	position: absolute;
+	bottom: 12px;
+}
+.caption a {
+	color: white;
+}
+.caption a:hover {
+	color: white;
+}
 /*-- Utility Classes
 --*/
 .shadow-2 {
 	box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12); }
 }
-
 .block-ctr {
 	display: block;
 	margin: 0 auto;
 }
-
 .resp-img {
 	width: 100%;
 	height: auto;
 }
-
 /*-- Media Queries
 --*/
-
 @media (min-width: 600px) {
 	.c3, .c4, .c5, .c6, .c7, .c8, .c9, .c10, .c11, .c12, .c13, .c14 {
 		width: 50%;
@@ -174,12 +152,10 @@ span.tagline {
 		font-size: 1rem;
 	}
 }
-
 @media (min-width: 800px) {
 	.c3, .c4, .c5, .c6, .c7, .c8, .c9, .c10, .c11, .c12, .c13, .c14  {
 		width: 25%;
 	}
-	
 	.cr > h1 {
 		font-size: 10rem;
 		padding-bottom: 24px;
@@ -189,7 +165,6 @@ span.tagline {
 		font-size: 2rem;
 	}
 }
-
 @media (min-width: 1000px) {
 	.c1 {
 		width: 60%;
@@ -200,77 +175,62 @@ span.tagline {
 }
 /*-- Demo divs
 --*/
-
 .cr {
   color: #ddd;
   background-color: darkgreen;
 }
-
 .c1 {
   color: #ddd;
   background-color: #FFF;
 }
-
 .c2 {
   color: #222;
   background-color: #fff;
 }
-
 .c3 {
   color: #333;
   background-color: #b4d2f7;
 }
-
 .c4 {
   color: #333;
   background-color: #d5dfef;
 }
-
 .c5 {
   color: #333;
   background-color: #dfe1e5;
 }
-
 .c6 {
   color: #333;
   background-color: #ccc;
 }
-
 .c7 {
   color: #ddd;
   background-color: #003476;
 }
-
 .c8 {
   color: #ddd;
   background-color: #0062d2;
 }
-
 .c9 {
   color: #333;
   background-color: #b4d2f7;
 }
-
 .c10 {
   color: #333;
   background-color: #d5dfef;
 }
-
 .c11 {
   color: #333;
   background-color: #dfe1e5;
 }
-
 .c12 {
   color: #333;
   background-color: #ccc;
 }
-
 .c13 {
   color: #333;
   background-color: #dfe1e5;
 }
-
 .c14 {
   color: #333;
   background-color: #ccc;
