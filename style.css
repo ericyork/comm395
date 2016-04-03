@@ -19,7 +19,6 @@ a:hover {
 	color: green;
 }
 a:active {
-
 }
 
 h1, h2 {
@@ -52,7 +51,6 @@ h1, h2 {
 
 div.cr {
 	display: flex;
-	min-height: 0;
 }
 
 .cr > h1 {
@@ -60,9 +58,9 @@ div.cr {
 	font-size: 3rem;
 	font-weight: 100;
 	margin: 0;
-	padding: 0;
+	padding: 20px;
 	transition: 0.5s;
-	line-height: 1;
+	line-height: 1.2;
 }
 
 span.tagline {
@@ -132,6 +130,17 @@ span.tagline {
 	font-family: 'Roboto Slab';
 	font-weight: 100;
 }
+
+.card > a {
+	display: flex;
+	flex-direction: column;
+	opacity: 0;
+}
+
+.card > a:hover {
+	opacity: 1;
+}
+
 /*-- Utility Classes
 --*/
 .shadow-2 {
