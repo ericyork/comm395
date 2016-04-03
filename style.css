@@ -112,7 +112,7 @@ span.tagline {
 	right: 0;
 	bottom: 0;
 	left: 0;
-	background-color: rgba(0,100,0,0.8);
+	background-color: rgba(0,100,0,0.9);
 	opacity: 1;
 	transition: 0.5s;
 }
@@ -259,7 +259,7 @@ p.card-subtitle {
 --*/
 .cr {
   color: #ddd;
-  background-color: rgba(0,100,0,0.8);
+  background-color: rgba(0,100,0,0.9);
 }
 .c1 {
   color: #ddd;
@@ -280,12 +280,8 @@ p.card-subtitle {
 .c7 {
 }
 .c8 {
-  color: #ddd;
-  background-color: #0062d2;
 }
 .c9 {
-  color: #333;
-  background-color: #b4d2f7;
 }
 .c10 {
   color: #333;
