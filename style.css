@@ -83,16 +83,10 @@ span.tagline {
 
 /*-- Card Styles
 --*/
-
-
 .card {
 	display: flex;
 	flex-direction: column;
 	position: relative;
-}
-
-.card-img {
-	display: flex;
 }
 
 .card-img img {
@@ -100,45 +94,23 @@ span.tagline {
 	height: auto;
 }
 
-.card-title {
-	box-sizing: border-box;
-	position: absolute;
-	top: 0px;
-	width: 100%;
-	background-color: rgba(0,0,0,0.4);
-	color: #FFF;
-	padding-left: 10px;
-}
-
-.card-title h3 {
-	font-family: 'Roboto Slab';
-	font-weight: 400;
-	margin: 0;
-	padding: 5px;
-}
-
-.card-subtitle {
-	box-sizing: border-box;
-	position: absolute;
-	bottom: 0px;
-	width: 100%;
-	background-color: rgba(0,0,0,0.4);
-	color: #FFF;
-	padding: 6px 10px 6px 10px;
-}
-
-.card-subtitle span {
-	font-family: 'Roboto Slab';
-	font-weight: 100;
-}
-
-.card > a {
+.card-img {
 	display: flex;
-	flex-direction: column;
-	opacity: 0;
 }
 
-.card > a:hover {
+.caption {
+	display: flex;
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background-color: transparent;
+	opacity: 0;
+	transition: 0.3s;
+}
+.caption:hover {
+	background-color: rgba(0,0,0,0.4);
 	opacity: 1;
 }
 
