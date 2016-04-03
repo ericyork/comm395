@@ -22,7 +22,9 @@ a:visited {
 a:hover {
 	color: green;
 }
-a:active {
+a:focus {
+	outline-color: transparent;
+    text-decoration: none;
 }
 h1, h2 {
 	font-family: 'Roboto Slab';
@@ -107,7 +109,6 @@ span.tagline {
 	background-color: transparent;
 	opacity: 0;
 	transition: 0.5s;
-	padding: 12px 12px;
 }
 .caption:hover {
 	background-color: rgba(0,0,0,0.3);
@@ -122,6 +123,12 @@ span.tagline {
 }
 .caption a {
 	color: white;
+	padding: 12px 12px;
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
 }
 .caption a:hover {
 	color: white;
