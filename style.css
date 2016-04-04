@@ -94,7 +94,7 @@ span.tagline {
 	display: flex;
 	flex-direction: column;
 	position: relative;
-	border: 1px dashed #FAFAFA;
+	border: 1px solid #FAFAFA;
 }
 .card-img img {
 	width: 100%;
@@ -120,7 +120,6 @@ span.tagline {
 	background-color: transparent;
 	opacity: 0;
 }
-
 h1.card-title {
 	font-weight: 300;
 	text-align: center;
@@ -161,6 +160,17 @@ p.card-subtitle {
 	width: 100%;
 	height: auto;
 }
+/*-- Footer Styles
+--*/
+footer {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	padding: 16px;
+	background-color: rgba(0,100,0,1);
+	color: gold;
+	font-weight: 700;
+}
 /*-- Media Queries
 --*/
 @media (min-width: 500px) {
@@ -178,7 +188,6 @@ p.card-subtitle {
 		font-size: 1rem;
 	}
 }
-
 @media (min-width: 700px) {
 }
 
@@ -203,7 +212,6 @@ p.card-subtitle {
 		line-height: 1;
 	}
 }
-
 @media (min-width: 900px) {
 	h1.card-title {
 		font-size: 7rem;
@@ -214,7 +222,6 @@ p.card-subtitle {
 		line-height: 1;
 	}
 }
-
 @media (min-width: 1000px) {
 	.c1 {
 		width: 60%;
@@ -255,51 +262,15 @@ p.card-subtitle {
 }
 @media (min-width: 1400px) {
 }
-/*-- Demo divs
+/*-- Div colors
 --*/
 .cr {
-  color: #ddd;
-  background-color: rgba(0,100,0,0.9);
+  background-color: rgba(0,100,0,1);
 }
 .c1 {
-  color: #ddd;
   background-color: #FFF;
 }
 .c2 {
   color: #222;
   background-color: #fff;
-}
-.c3 {
-}
-.c4 {
-}
-.c5 {
-}
-.c6 {
-}
-.c7 {
-}
-.c8 {
-}
-.c9 {
-}
-.c10 {
-  color: #333;
-  background-color: #d5dfef;
-}
-.c11 {
-  color: #333;
-  background-color: #dfe1e5;
-}
-.c12 {
-  color: #333;
-  background-color: #ccc;
-}
-.c13 {
-  color: #333;
-  background-color: #dfe1e5;
-}
-.c14 {
-  color: #333;
-  background-color: #ccc;
 }
