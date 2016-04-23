@@ -7,7 +7,7 @@ h1, h2, h3, h4, h5, h6, p, ul, ol, li {
 body {
 	font-family: Roboto;
 	font-size: 16px;
-	font-weight: 300;	
+	font-weight: 300;
 	overflow-x: hidden;
 	background-color: #FFF;
 }
@@ -39,7 +39,7 @@ h1, h2 {
 	min-height: 150px;
 	min-width: 150px;
 	box-sizing: border-box;
-}   
+}
 .container {
 	display: -webkit-flex;
 	display: flex;
