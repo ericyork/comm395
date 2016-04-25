@@ -64,9 +64,9 @@ div.cr {
 	color: #839496;
 }
 span.tagline {
-	font-size: 1rem;
-	color: #eee8d5;
-	font-weight: 700;
+	font-size: .75em;
+	margin-top: 2.5em;
+	color: #fdf6e3;
 	transition: 0.5s;
 }
 .feeds h1 {
@@ -160,16 +160,23 @@ p.card-subtitle {
 	width: 100%;
 	height: auto;
 }
-/*-- Footer Styles
+/*--Footer Styles
 --*/
-footer {
-	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
-	padding: 16px;
-	background-color: #073642;
+.copy {
+		display: flex;
+		flex-flow: row wrap;
+		justify-content: space-around;
+		margin-top: -6px;
+		padding-top: 24px;
+		padding-bottom: 20px;
+		background-color: #002b36;
+		color: #eee8d5;
+}
+.copy a {
 	color: #839496;
-	font-weight: 700;
+}
+.copy a:hover {
+	color: #eee8d5;
 }
 /*-- Media Queries
 --*/
@@ -274,3 +281,6 @@ footer {
   color: #222;
   background-color: #eee8d5;
 }
+.card-title {font-size: 10.5em; line-height: 1; color:#859900; letter-spacing: -18px;}
+.card-subtitle {font-size: 1.5em; line-height: 1;color: #dc322f; margin-top: -8px;letter-spacing: -2px;}
+.card-subtitle:first-child {color: #93a1a1; margin-bottom: -16px; font-weight: 100;}
